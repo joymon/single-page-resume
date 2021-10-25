@@ -1,0 +1,111 @@
+{
+  "basics": {
+    "name": "Joy George Kunjikkuru",
+    "label": "Solutions Architect",
+    "image": "",
+    "email": "joymon@gmail.com",
+    "phone": "(661) 665-6916",
+    "url": "https://joymononline.in",
+    "summary": "Passionate Software engineer to solve problems regardless of tools and technologies.",
+    "location": {
+      "address": "Wayne",
+      "postalCode": "NJ 07470",
+      "city": "Wayne",
+      "countryCode": "US",
+      "region": "New Jersey"
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "joymon",
+      "url": "https://twitter.com/joymon"
+    }]
+  },
+  "work": [{
+    "name": "Orion Business Innovations",
+    "position": "Solutions Architect",
+    "url": "https://orioninc.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description…",
+    "highlights": [
+      ""
+    ]
+  }],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Bhartiar University",
+    "url": "https://institution.com/",
+    "area": "Information Systems Management",
+    "studyType": "Masters",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "score": "4.0",
+    "courses": [
+      "MBA in Informations Systems Management"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "publications": [],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }],
+  "languages": [
+    {
+      "language": "Malayalam",
+      "fluency": "Fluent"
+    },
+    {
+    "language": "Malayalam",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [{
+    "name": "Project",
+    "description": "Description…",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "keywords": [
+      "HTML"
+    ],
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "url": "https://project.com/",
+    "roles": [
+      "Team Lead"
+    ],
+    "entity": "Entity",
+    "type": "application"
+  }]
+}
