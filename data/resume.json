@@ -1,0 +1,154 @@
+{
+    "basics": {
+        "name": "Joy George Kunjikkuru",
+        "label": "Solutions Architect",
+        "image": "",
+        "email": "joymon@gmail.com",
+        "phone": "661-665-6916",
+        "url": "https://joymononline.in",
+        "summary": "Passionate Software engineer to solve problems regardless of tools and technologies.",
+        "location": {
+            "address": "Wayne",
+            "postalCode": "NJ 07470",
+            "city": "Wayne",
+            "countryCode": "US",
+            "region": "New Jersey"
+        },
+        "profiles": [{
+                "network": "twitter",
+                "username": "joymon",
+                "url": "https://twitter.com/joymon"
+            },
+            {
+                "network": "github",
+                "username": "joymon",
+                "url": "https://github.com/joymon"
+            },
+            {
+                "network": "linkedin",
+                "username": "joymon",
+                "url": "https://linkedin.com/in/joymon"
+            }
+        ]
+    },
+    "education": [{
+            "institution": "Bhartiar University",
+            "url": "https://institution.com/",
+            "area": "Information Systems Management",
+            "studyType": "Masters",
+            "startDate": "2007-01-01",
+            "endDate": "2009-01-01",
+            "score": "4.0",
+            "courses": [
+                "MBA in Information Systems Management"
+            ]
+        }, {
+            "institution": "Anna University",
+            "url": "https://institution.com/",
+            "area": "Computer Scient",
+            "studyType": "Masters",
+            "startDate": "2002-01-01",
+            "endDate": "2005-01-01",
+            "score": "4.0",
+            "courses": [
+                "BE in Computer Science and Engineering"
+            ]
+        },
+        {
+            "institution": "Technical Education Kerala",
+            "url": "https://institution.com/",
+            "area": "Information Systems Management",
+            "studyType": "Masters",
+            "startDate": "1999-01-01",
+            "endDate": "2002-01-01",
+            "score": "4.0",
+            "courses": [
+                "Diploma in Computer Science"
+            ]
+        }
+    ],
+    "work": [{
+        "name": "Orion Business Innovations, New Jersey",
+        "position": "Solutions Architect",
+        "url": "https://orioninc.com",
+        "startDate": "2013-01-01",
+        "endDate": "2014-01-01",
+        "summary": "I am working as **Solution architect** responsible for the below duties.\n - Work with stakeholders \n - Worked for internal projects.",
+        "highlights": [
+            ""
+        ]
+    }],
+    "volunteer": [{
+        "organization": "Organization",
+        "position": "Volunteer",
+        "url": "https://organization.com/",
+        "startDate": "2012-01-01",
+        "endDate": "2013-01-01",
+        "summary": "Description…",
+        "highlights": [
+            "Awarded 'Volunteer of the Month'"
+        ]
+    }],
+
+    "awards": [{
+        "title": "Award",
+        "date": "2014-11-01",
+        "awarder": "Company",
+        "summary": "There is no spoon."
+    }],
+    "publications": [],
+    "skills": [{
+        "name": "Web Development",
+        "level": "Master",
+        "keywords": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    }],
+    "languages": [{
+            "language": "English",
+            "fluency": "Fluent"
+        },
+        {
+            "language": "Malayalam",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "Hindi",
+            "fluency": "Moderate"
+        }, {
+            "language": "Tamil",
+            "fluency": "Moderate"
+        }
+    ],
+    "interests": [{
+        "name": "Wildlife",
+        "keywords": [
+            "Ferrets",
+            "Unicorns"
+        ]
+    }],
+    "references": [{
+        "name": "Jane Doe",
+        "reference": "Reference…"
+    }],
+    "projects": [{
+        "name": "Project",
+        "description": "Description…",
+        "highlights": [
+            "Won award at AIHacks 2016"
+        ],
+        "keywords": [
+            "HTML"
+        ],
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "url": "https://project.com/",
+        "roles": [
+            "Team Lead"
+        ],
+        "entity": "Entity",
+        "type": "application"
+    }]
+}
