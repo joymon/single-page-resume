@@ -2,7 +2,7 @@
 
 baseurl = "http://example.org/"
 languageCode = "en-us"
-title = "Joy George"
+title = "Joy George Kunjikkuru"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -52,15 +52,6 @@ disable404 = true
         enable = true
         title = "Interests"
 
-        [[params.interests.list]]
-        interest = "Climbing"
-
-        [[params.interests.list]]
-        interest = "Snowboarding"
-
-        [[params.interests.list]]
-        interest = "Cooking"
-
 # Main body sections
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
@@ -70,20 +61,13 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "Aspiring **solution architect** with 16+ years of experience in the software engineering mainly in .Net, web and distributed cloud applications. More than a decade of experience in software architecture."
 
     # Experiences section
     [params.experiences]
         enable = true
         icon = "fa-briefcase"
         title = "Experiences"
-
-        [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet.. \n - Aenean commodo ligula eget dolor. \n\n et quasi architecto beatae vitae dicta sunt explicabo."
-
 
     # Projects section
     [params.projects]
@@ -124,24 +108,12 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
-                
-        [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
-
-        [[params.skills.list]]
         skill = "Angular"
         level = "95%"
 
         [[params.skills.list]]
         skill = "HTML5 & CSS"
         level = "95%"
-
-        [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
 
         [[params.skills.list]]
         skill = ".Net"

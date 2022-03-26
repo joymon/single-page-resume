@@ -42,7 +42,8 @@
             "courses": [
                 "MBA in Information Systems Management"
             ]
-        }, {
+        },
+        {
             "institution": "Anna University",
             "url": "https://institution.com/",
             "area": "Computer Scient",
@@ -68,16 +69,57 @@
         }
     ],
     "work": [{
-        "name": "Orion Business Innovations, New Jersey",
-        "position": "Solutions Architect",
-        "url": "https://orioninc.com",
-        "startDate": "2013-01-01",
-        "endDate": "2014-01-01",
-        "summary": "I am working as **Solution architect** responsible for the below duties.\n - Work with stakeholders \n - Worked for internal projects.",
-        "highlights": [
-            ""
-        ]
-    }],
+            "name": "Orion Business Innovations, New Jersey",
+            "position": "Solutions Architect",
+            "url": "https://orioninc.com",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "I am working as **Solution architect** responsible for the below duties.\n - Work with stakeholders \n - Worked for internal projects.",
+            "highlights": [
+                ""
+            ]
+        },
+        {
+            "name": "IRIS Software, New Jersey",
+            "position": "Consultant Application Developer",
+            "url": "",
+            "startDate": "2016-05-01",
+            "endDate": "2017-02-28",
+            "summary": "Worked as consultant application developer for client Bank of America."
+        },
+        {
+            "name": "Orion Systems Integrators, New Jersey",
+            "position": "Application Architect",
+            "url": "",
+            "startDate": "2016-05-01",
+            "endDate": "2017-02-28",
+            "summary": "Worked as application architect for client Bank of America."
+        },
+        {
+            "name": "Orion India Systems, Kochi, Kerala",
+            "position": "Jr Architect",
+            "url": "",
+            "startDate": "2016-05-01",
+            "endDate": "2017-02-28",
+            "summary": "Worked as consultant application developer for client Bank of America."
+        },
+        {
+            "name": "Identitymine Software, Kochi, Kerala",
+            "position": "Consultant Application Developer",
+            "url": "",
+            "startDate": "2016-05-01",
+            "endDate": "2017-02-28",
+            "summary": "Worked as consultant application developer for client Bank of America."
+        },
+        {
+            "name": "Syncfusion Software, Chennai, Tamil Nadu",
+            "position": "Software Engineer Level 4",
+            "url": "",
+            "startDate": "2016-05-01",
+            "endDate": "2017-02-28",
+            "summary": "Worked as consultant application developer for client Bank of America."
+        }
+    ],
     "volunteer": [{
         "organization": "Organization",
         "position": "Volunteer",
@@ -89,7 +131,6 @@
             "Awarded 'Volunteer of the Month'"
         ]
     }],
-
     "awards": [{
         "title": "Award",
         "date": "2014-11-01",
@@ -98,14 +139,26 @@
     }],
     "publications": [],
     "skills": [{
-        "name": "Web Development",
-        "level": "Master",
-        "keywords": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ]
-    }],
+            "name": "Architecture",
+            "level": "95%",
+            "keywords": [
+                "Microservice", "Serverless", "Distributed computing", "SOA", "Messaging"
+            ]
+        },
+        {
+            "name": "Web Development",
+            "level": "90%",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Angular",
+                "Bootstrap",
+                "jQuery",
+                "Angular UI"
+            ]
+        }
+    ],
     "languages": [{
             "language": "English",
             "fluency": "Fluent"
@@ -117,18 +170,31 @@
         {
             "language": "Hindi",
             "fluency": "Moderate"
-        }, {
+        },
+        {
             "language": "Tamil",
             "fluency": "Moderate"
         }
     ],
     "interests": [{
-        "name": "Wildlife",
-        "keywords": [
-            "Ferrets",
-            "Unicorns"
-        ]
-    }],
+            "name": "Driving",
+            "keywords": [
+                "Ferrets"
+            ]
+        },
+        {
+            "name": "Hiking",
+            "keywords": [
+                "Ferrets"
+            ]
+        },
+        {
+            "name": "Travel",
+            "keywords": [
+                "Ferrets"
+            ]
+        }
+    ],
     "references": [{
         "name": "Jane Doe",
         "reference": "Reference…"

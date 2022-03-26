@@ -1,14 +1,34 @@
-            <section class="skills-section section">
-                <h2 class="section-title"><i class="fa {{ .Site.Params.skills.icon }}"></i>{{ i18n "skills" }}</h2>
-                <div class="skillset">
-				{{ range .Site.Params.skills.list }}
-                    <div class="item">
-                        <h3 class="level-title">{{ .skill }}</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="{{ .level }}">
-                            </div>
-                        </div><!--//level-bar-->
-                    </div><!--//item-->
-                {{ end }}
+<section class="skills-section section">
+    <h2 class="section-title"><i class="fa {{ .Site.Params.skills.icon }}"></i>{{ i18n "skills" }}</h2>
+    <div class="skillset">
+        <!-- {{ range .Site.Params.skills.list }}
+        <div class="item">
+            <h3 class="level-title">{{ .skill }}</h3>
+            <div class="level-bar">
+                <div class="level-bar-inner" data-level="{{ .level }}">
                 </div>
-            </section><!--//skills-section-->
+            </div>
+            
+    </div>
+    
+    {{ end }} -->
+        {{ range .Site.Data.resume.skills }}
+        <div class="item">
+            <div class="col-md-12">
+                <h3 class="level-title">{{ .name }}</h3>
+                <div class="level-bar">
+                    <div class="level-bar-inner" data-level="{{ .level }}">
+                    </div>
+                </div>
+            </div>
+            <!--//level-bar-->
+            <div class="form-group">
+                {{ range .keywords }}
+                <span class="label label-info">{{ . }} </span> &nbsp; {{ end}}
+            </div>
+        </div>
+        <!--//item-->
+        {{ end }}
+    </div>
+</section>
+<!--//skills-section-->
