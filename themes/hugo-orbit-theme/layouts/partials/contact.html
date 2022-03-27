@@ -1,18 +1,5 @@
 <div class="contact-container container-block">
     <ul class="list-unstyled contact-list">
-
-        <li class="phone">
-            <i class="fa fa-phone"></i>
-            <a href="tel:{{ .Site.Data.resume.basics.phone }}">{{ .Site.Data.resume.basics.phone }}</a>
-        </li>
-        <li class="email">
-            <i class="fa fa-envelope"></i>
-            <a href="mailto:{{ .Site.Data.resume.basics.email }}">{{ .Site.Data.resume.basics.email }}</a>
-        </li>
-        <li class="phone">
-            <i class="fa fa-globe"></i>
-            <a href="{{ .Site.Data.resume.basics.url }}">{{ .Site.Data.resume.basics.url }}</a>
-        </li>
         {{ range .Site.Params.contact.list }}
         <li class="{{ .class }}">
             <i class="fa {{ .icon }}"></i>

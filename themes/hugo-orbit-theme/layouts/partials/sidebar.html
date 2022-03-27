@@ -3,7 +3,7 @@
     {{ partial "profile.html" . }} {{ if .IsTranslated }} {{ partial "translate.html" . }} {{ end }}
 
     <br class="d-none" /> {{ if .Site.Params.contact.enable }} {{ partial "contact.html" . }} {{ end }}
-    <br/> {{ if .Site.Params.education.enable }} {{ partial "education.html" . }} {{ end }}
+    <br/> {{ if .Site.Params.education.enable }} {{ partial "education.html" . }} {{ end }} {{ if and (.Site.Params.skills.enable) (.Site.Params.skills.showInSidebar) }} {{ partial "skills.html" (dict "context" . "parent" "sidebar") }} {{ end }}
     <br/>{{ if .Site.Params.language.enable }} {{ partial "language.html" . }} {{ end }}
     <br/> {{ if .Site.Params.interests.enable }} {{ partial "interests.html" . }} {{ end }}
 

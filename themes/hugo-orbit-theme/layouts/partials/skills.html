@@ -1,17 +1,9 @@
+{{if eq .parent "main"}}
+<!--Displaying inside main section-->
 <section class="skills-section section">
+    {{with .context}}
     <h2 class="section-title"><i class="fa {{ .Site.Params.skills.icon }}"></i>{{ i18n "skills" }}</h2>
     <div class="skillset">
-        <!-- {{ range .Site.Params.skills.list }}
-        <div class="item">
-            <h3 class="level-title">{{ .skill }}</h3>
-            <div class="level-bar">
-                <div class="level-bar-inner" data-level="{{ .level }}">
-                </div>
-            </div>
-            
-    </div>
-    
-    {{ end }} -->
         {{ range .Site.Data.resume.skills }}
         <div class="item">
             <div class="col-md-12">
@@ -24,11 +16,30 @@
             <!--//level-bar-->
             <div class="form-group">
                 {{ range .keywords }}
-                <span class="label label-info">{{ . }} </span> &nbsp; {{ end}}
+                <span class="label label-info">{{ . }} </span> &nbsp;
+                <!-- range keywords-->
+                {{ end}}
             </div>
         </div>
-        <!--//item-->
+        <!--range skills -->
         {{ end }}
     </div>
+    <!-- context-->
+    {{end}}
 </section>
 <!--//skills-section-->
+{{ else }}
+<div class="contact-container container-block">
+    {{with .context}}
+    <h2 class="container-block-title">{{ i18n "skills" }}</h2>
+    {{ range .Site.Data.resume.skills }}
+    <div class="item">
+        <h5 class="level-title">{{ .name }}</h3>
+            {{ range .keywords }}
+            <span class="label label-info">{{ . }} </span> &nbsp;
+            <!-- range keywords-->
+            {{ end}}
+    </div>
+    {{end}}
+</div>
+{{end}} {{end}}
