@@ -157,6 +157,16 @@
                 "jQuery",
                 "Angular UI"
             ]
+        },
+        {
+            "name": "Containers",
+            "level": "80%",
+            "keywords": ["Docker", "Kubernetes", "Azure Kubernetes Service", "ACR"]
+        },
+        {
+            "name": "Azure",
+            "level": "80%",
+            "keywords": ["IaaS", "ServiceFabric", "Functions", "AKS", "ACR", "AppService", "Storage", "ServiceBus", "ADF", "ADB"]
         }
     ],
     "languages": [{

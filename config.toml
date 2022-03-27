@@ -111,14 +111,6 @@ disable404 = true
         skill = "Angular"
         level = "95%"
 
-        [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = ".Net"
-        level = "90%"
-
     # Footer section
 
     # The original template is released under the Creative Commons Attribution 3.0 License.
