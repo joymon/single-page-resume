@@ -369,17 +369,50 @@ p {
 @media print {
     body {
         padding: 0%;
+        font-size: 12px;
+    }
+    p {
+        margin: 5px 0px;
     }
     .wrapper {
         max-width: none;
     }
     .main-wrapper {
         padding: 20px;
-        padding-right: 270px;
+        padding-right: 260px;
+    }
+    .main-wrapper .section {
+        margin-bottom: 5px;
+    }
+    .main-wrapper .section-title {
+        margin-bottom: 5px;
     }
     .main-wrapper .section-title .fa {
         color: #2d7788;
         background: #fff;
+    }
+    .main-wrapper .experiences-section .item {
+        margin-bottom: 10px;
+    }
+    .main-wrapper .company {
+        margin-bottom: 0px;
+    }
+    .sidebar-wrapper .container-block {
+        padding: 5px 10px;
+    }
+    .sidebar-wrapper .container-block-title {
+        margin-bottom: 10px;
+    }
+    .sidebar-wrapper .contact-list li {
+        margin-bottom: 5px;
+    }
+    .footer {
+        visibility: hidden;
+    }
+    .list-unstyled {
+        padding-left: 0;
+        list-style: none;
+        margin: 0px;
     }
     .col-sm-1,
     .col-sm-2,
