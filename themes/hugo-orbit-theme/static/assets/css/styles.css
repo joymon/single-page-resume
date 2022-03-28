@@ -190,8 +190,8 @@ p {
 
 .main-wrapper {
     background: #fff;
-    padding: 60px;
-    padding-right: 300px;
+    padding: 50px;
+    padding-right: 270px;
     page-break-before: always;
 }
 
@@ -202,7 +202,7 @@ p {
     color: #2d7788;
     position: relative;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .main-wrapper .section-title .fa {
@@ -228,12 +228,12 @@ p {
 }
 
 .main-wrapper .section {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     page-break-inside: avoid;
 }
 
 .main-wrapper .experiences-section .item {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .main-wrapper .upper-row {
@@ -270,7 +270,7 @@ p {
 }
 
 .main-wrapper .projects-section .intro {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .main-wrapper .projects-section .item {
@@ -367,6 +367,20 @@ p {
 /* Ex-Large devices (large desktops, 1200px and up) */
 
 @media print {
+    body {
+        padding: 0%;
+    }
+    .wrapper {
+        max-width: none;
+    }
+    .main-wrapper {
+        padding: 20px;
+        padding-right: 270px;
+    }
+    .main-wrapper .section-title .fa {
+        color: #2d7788;
+        background: #fff;
+    }
     .col-sm-1,
     .col-sm-2,
     .col-sm-3,

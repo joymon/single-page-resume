@@ -72,8 +72,8 @@
             "name": "Orion Business Innovations, New Jersey",
             "position": "Solutions Architect",
             "url": "https://orioninc.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
+            "startDate": "2017-03-01",
+            "endDate": "",
             "summary": "I am working as **Solution architect** responsible for the below duties.\n - Work with stakeholders \n - Worked for internal projects.",
             "highlights": [
                 ""
@@ -85,31 +85,31 @@
             "url": "",
             "startDate": "2016-05-01",
             "endDate": "2017-02-28",
-            "summary": "Worked as consultant application developer for client Bank of America."
+            "summary": "Worked for client Bank of America in their project WMX+. Responsible for understanding the requirements, design, code and unit test."
         },
         {
             "name": "Orion Systems Integrators, New Jersey",
             "position": "Application Architect",
             "url": "",
-            "startDate": "2016-05-01",
-            "endDate": "2017-02-28",
-            "summary": "Worked as application architect for client Bank of America."
+            "startDate": "2014-05-29",
+            "endDate": "2016-05-28",
+            "summary": "Worked as application architect for Orion's client that is one of big 4 auditing firms. I was responsible for understanding requirements from stakeholders and product owners, identify non-functional requirements, prepare architecture design documents and transfer to development teams. Another important responsibility was to design the service contracts, code critical components and develop PoCs. I was also responsible for reviewing to make sure the code is following the architecture."
         },
         {
             "name": "Orion India Systems, Kochi, Kerala",
             "position": "Jr Architect",
             "url": "",
-            "startDate": "2016-05-01",
-            "endDate": "2017-02-28",
-            "summary": "Worked as consultant application developer for client Bank of America."
+            "startDate": "2009-09-15",
+            "endDate": "2014-05-28",
+            "summary": "Worked as Jr Architect responsible for understanding requirements from business analysts and high level design from onsite architects to translate the same to development teams. Also responsible for developing PoCs, coding critical components and reviewing code. Along with client projects, I also worked for Orion's internal projects."
         },
         {
             "name": "Identitymine Software, Kochi, Kerala",
-            "position": "Consultant Application Developer",
+            "position": "Sr Software engineer",
             "url": "",
-            "startDate": "2016-05-01",
-            "endDate": "2017-02-28",
-            "summary": "Worked as consultant application developer for client Bank of America."
+            "startDate": "2007-05-01",
+            "endDate": "2009-05-28",
+            "summary": "Worked as Sr software engineer responsible to develop and test client's applications as well as products of Identitymine."
         },
         {
             "name": "Syncfusion Software, Chennai, Tamil Nadu",
@@ -117,7 +117,7 @@
             "url": "",
             "startDate": "2016-05-01",
             "endDate": "2017-02-28",
-            "summary": "I was mainly responsible for developer support for the WPF and WinForms controls via forums, emails, incident tracking system and occassionally via phone. Another important responsibility is to align new features and defect fixes in priority for development. I was also responsible for developing demos for WPF and WinForms custom controls and test custom controls using manual and automated ways."
+            "summary": "I was mainly responsible for developer support for the custom controls in WPF and WinForms via forums, emails, incident tracking system and phone. Another important responsibility was to coordinate development, developing demos, and test custom controls using manual and automated ways."
         }
     ],
     "volunteer": [{
@@ -142,7 +142,7 @@
             "name": "Architecture",
             "level": "95%",
             "keywords": [
-                "Microservice", "Serverless", "Distributed computing", "SOA", "Messaging"
+                "Microservice", "Serverless", "Distributed computing", "SOA", "Messaging, SOLID principles", "GoF patterns"
             ]
         },
         {
@@ -210,8 +210,8 @@
         "reference": "Reference…"
     }],
     "projects": [{
-        "name": "Project",
-        "description": "Description…",
+        "name": "Dotnet-Helpers",
+        "description": "Utilities and helper classes for faster .Net development by writing less code.",
         "highlights": [
             "Won award at AIHacks 2016"
         ],
@@ -220,7 +220,41 @@
         ],
         "startDate": "2019-01-01",
         "endDate": "2021-01-01",
-        "url": "https://project.com/",
+        "url": "https://github.com/joymon/dotnet-helpers",
+        "roles": [
+            "Team Lead"
+        ],
+        "entity": "Entity",
+        "type": "application"
+    }, {
+        "name": "Orchestration",
+        "description": ".Net library to orchestrate operations and commands. Helps to follow Single Responsibility Pattern.",
+        "highlights": [
+            "Won award at AIHacks 2016"
+        ],
+        "keywords": [
+            "HTML"
+        ],
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "url": "https://github.com/joymon/Orchestration",
+        "roles": [
+            "Team Lead"
+        ],
+        "entity": "Entity",
+        "type": "application"
+    }, {
+        "name": "Karel",
+        "description": "Javascript based Karel simulator to learn programming easily. It simplifies programming to a level of just controlling a robot using a fixed set of instructions.",
+        "highlights": [
+            "Won award at AIHacks 2016"
+        ],
+        "keywords": [
+            "HTML"
+        ],
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "url": "https://github.com/joymon/Karel",
         "roles": [
             "Team Lead"
         ],

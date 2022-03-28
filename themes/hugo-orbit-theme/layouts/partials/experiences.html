@@ -23,7 +23,7 @@
         <div class="meta">
             <div class="upper-row">
                 <h3 class="job-title">{{ .position }}</h3>
-                <div class="time">{{dateFormat "2006" .startDate }} - {{dateFormat "2006" .endDate }}</div>
+                <div class="time">{{dateFormat "2006" .startDate }} - {{ if eq .endDate ""}} Till date {{ else}} {{dateFormat "2006" .endDate}} {{end}}</div>
             </div>
             <!--//upper-row-->
             <div class="company">{{ .name }}</div>
