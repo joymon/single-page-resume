@@ -1,12 +1,17 @@
 <div class="sidebar-wrapper">
 
-    {{ partial "profile.html" . }} {{ if .IsTranslated }} {{ partial "translate.html" . }} {{ end }}
+    {{ partial "profile.html" . }} {{ if .IsTranslated }} {{ partial "translate.html" . }} {{ end }} {{ if .Site.Params.contact.enable }} {{ partial "contact.html" . }} {{ end }}
 
-    <br class="hidden" /> {{ if .Site.Params.contact.enable }} {{ partial "contact.html" . }} {{ end }}
-    <br class="hidden" /> {{ if .Site.Params.education.enable }} {{ partial "education.html" . }} {{ end }} {{ if and (.Site.Params.skills.enable) (.Site.Params.skills.showInSidebar) }} {{ partial "skills.html" (dict "context" . "parent" "sidebar") }}
-    {{ end }}
-    <br class="hidden" />{{ if .Site.Params.language.enable }} {{ partial "language.html" . }} {{ end }}
-    <br class="hidden" /> {{ if .Site.Params.interests.enable }} {{ partial "interests.html" . }} {{ end }}
+    <!--Skills-->
+    {{ if and (.Site.Params.skills.enable) (.Site.Params.skills.showInSidebar) }} {{ partial "skills.html" (dict "context" . "parent" "sidebar") }} {{ end }}
+    <!--Awards-->
+    {{ partial "awards.html" . }}
+    <!--Education-->
+    {{ if .Site.Params.education.enable }} {{ partial "education.html" . }} {{ end }}
+    <!--languages-->
+    {{ if .Site.Params.language.enable }} {{ partial "language.html" . }} {{ end }}
+    <!--Interests-->
+    {{ if .Site.Params.interests.enable }} {{ partial "interests.html" . }} {{ end }}
 
 </div>
 <!--//sidebar-wrapper-->

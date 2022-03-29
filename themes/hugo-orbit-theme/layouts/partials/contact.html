@@ -1,16 +1,12 @@
 <div class="contact-container container-block">
     <ul class="list-unstyled contact-list">
-        {{ range .Site.Params.contact.list }}
-        <li class="{{ .class }}">
-            <i class="fa {{ .icon }}"></i>
-            <a href="{{ .url }}">{{ .title }}</a>
-        </li>
-        {{ end }} {{ range .Site.Data.resume.basics.profiles }}
-        <li class="{{ .class }}">
+        {{ range .Site.Data.resume.basics.profiles }}
+        <!-- <li class="{{ .class }}">
             <i class="fa fa-{{ .network }}"></i>
             <a href="{{ .url }}">{{ .username }}</a>
-        </li>
-        {{ end }}
+        </li> -->
+        | <i class="fa fa-{{ .network }}"></i>
+        <a href="{{ .url }}">{{ .username }}</a> {{ end }} |
     </ul>
 </div>
 <!--//contact-container-->

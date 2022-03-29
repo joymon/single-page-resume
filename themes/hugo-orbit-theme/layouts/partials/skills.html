@@ -34,11 +34,11 @@
     <h2 class="container-block-title">{{ i18n "skills" }}</h2>
     {{ range .Site.Data.resume.skills }}
     <div class="item">
-        <h5 class="level-title">{{ .name }}</h3>
-            {{ range .keywords }}
-            <span class="label label-info">{{ . }} </span> &nbsp;
-            <!-- range keywords-->
-            {{ end}}
+        <h3 class="level-title">{{ .name }}</h3>
+        {{ range .keywords }}
+        <span class="label label-info">{{ . }} </span> &nbsp;
+        <!-- range keywords-->
+        {{ end}}
     </div>
     {{end}}
 </div>

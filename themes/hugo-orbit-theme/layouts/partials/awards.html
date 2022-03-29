@@ -1,0 +1,9 @@
+<div class="language-container container-block">
+    <h2 class="container-block-title">{{ i18n "awards" }}</h2>
+
+    {{ range .Site.Params.language.list }} {{ .language }} <span class="lang-desc">({{ .level }})</span> {{ end }}
+    <!--Looping from resume.json-->
+    {{ range .Site.Data.resume.awards }} {{ .title }} |{{ end }}
+
+</div>
+<!--//language-->

@@ -1,11 +1,9 @@
 <div class="language-container container-block">
     <h2 class="container-block-title">{{ i18n "language" }}</h2>
-    <ul class="list-unstyled interests-list">
-        {{ range .Site.Params.language.list }}
-        <li>{{ .language }} <span class="lang-desc">({{ .level }})</span></li>
-        {{ end }} {{ range .Site.Data.resume.languages }}
-        <li>{{ .language }} <span class="lang-desc">({{ .fluency }})</span></li>
-        {{ end }}
-    </ul>
+
+    {{ range .Site.Params.language.list }} {{ .language }} <span class="lang-desc">({{ .level }})</span> {{ end }}
+    <!--Looping from Data-->
+    {{ range .Site.Data.resume.languages }} {{ .language }} <span class="lang-desc">({{ .fluency }})</span> {{ end }}
+
 </div>
 <!--//language-->

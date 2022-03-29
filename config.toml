@@ -44,7 +44,7 @@ disable404 = true
 
     # Languages section
     [params.language]
-        enable = true
+        enable = false
         title = "Languages"
 
     # Interests section

@@ -74,7 +74,7 @@
             "url": "https://orioninc.com",
             "startDate": "2017-03-01",
             "endDate": "",
-            "summary": "I am working as **Solution architect** responsible for the below duties.\n - Work with stakeholders \n - Worked for internal projects.",
+            "summary": "Responsible to work with client stakeholders to shape up the vision of the platform and products, work with other solution architects to define the architecture. Transfer the solution to the development teams, and promote innovation across the portfolio.",
             "highlights": [
                 ""
             ]
@@ -115,8 +115,8 @@
             "name": "Syncfusion Software, Chennai, Tamil Nadu",
             "position": "Software Engineer Level 4",
             "url": "",
-            "startDate": "2016-05-01",
-            "endDate": "2017-02-28",
+            "startDate": "2005-11-01",
+            "endDate": "2007-05-28",
             "summary": "Mainly responsible for developer support of the WPF and WinForms custom controls via forums, emails, incident tracking system and phone. Also to coordinate development, developing demos, and test both manually and automated."
         }
     ],
@@ -132,7 +132,12 @@
         ]
     }],
     "awards": [{
-        "title": "Award",
+        "title": "AZ-303 - Microsoft Azure Architect Technologies",
+        "date": "2014-11-01",
+        "awarder": "Company",
+        "summary": "There is no spoon."
+    }, {
+        "title": "MCTS",
         "date": "2014-11-01",
         "awarder": "Company",
         "summary": "There is no spoon."
@@ -142,8 +147,23 @@
             "name": "Architecture",
             "level": "95%",
             "keywords": [
-                "Microservice", "Serverless", "Distributed computing", "SOA", "Messaging, SOLID principles", "GoF patterns"
+                "Microservice", "Serverless", "Distributed computing", "SOA", "Messaging", "SOLID principles", "GoF patterns"
             ]
+        },
+        {
+            "name": "Containers",
+            "level": "80%",
+            "keywords": ["Docker", "Kubernetes", "HELM", "AKS", "ACR"]
+        },
+        {
+            "name": "Azure",
+            "level": "80%",
+            "keywords": ["IaaS", "ServiceFabric", "Functions", "AKS", "ACR", "AppService", "Storage", "ServiceBus", "ADF", "ADB"]
+        },
+        {
+            "name": ".Net",
+            "level": "95%",
+            "keywords": [".Net 6", "C#", "ASP.Net WebAPI", "MVC", "Linq", "WCF", "WPF"]
         },
         {
             "name": "Web Development",
@@ -157,16 +177,6 @@
                 "jQuery",
                 "Angular UI"
             ]
-        },
-        {
-            "name": "Containers",
-            "level": "80%",
-            "keywords": ["Docker", "Kubernetes", "Azure Kubernetes Service", "ACR"]
-        },
-        {
-            "name": "Azure",
-            "level": "80%",
-            "keywords": ["IaaS", "ServiceFabric", "Functions", "AKS", "ACR", "AppService", "Storage", "ServiceBus", "ADF", "ADB"]
         }
     ],
     "languages": [{
@@ -175,7 +185,7 @@
         },
         {
             "language": "Malayalam",
-            "fluency": "Native speaker"
+            "fluency": "Native"
         },
         {
             "language": "Hindi",
