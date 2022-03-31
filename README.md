@@ -1,5 +1,5 @@
-# resume-hugo
-My JAMstack based singe page resume
+# Single page resume
+My JAMstack based one page resume
 
 # Getting started
 - Clone the repo
