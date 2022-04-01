@@ -7,7 +7,9 @@ Below are the steps to get your single page resume.
 
 - Clone the repo
 - Change the data/resume.json file with your details
+- Get your profile photo rename it to profile.png and place at [/static/assets/images](/static/assets/images)
 - Modify config.toml with your details. Enable or disable of sections can also be done there.
+- Test by running `hugo serve -D` command from the root folder.
 
 ## Hosting
 
