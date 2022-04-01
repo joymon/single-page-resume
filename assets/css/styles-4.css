@@ -1,0 +1,138 @@
+/*
+ * Template Name: Orbit - Responsive Resume/CV Template for Developers
+ * Version: 1.0
+ * Author: Xiaoying Riley
+ * Twitter: @3rdwave_themes
+ * License: Creative Commons Attribution 3.0 License
+ * Website: http://themes.3rdwavemedia.com/
+*/
+
+
+/* styles-4.css */
+
+
+/* ======= Base ======= */
+
+body {
+    color: #545E6C;
+    background: #f5f5f5;
+}
+
+a {
+    color: #6e3852;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #3c1e2c;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+
+/* Bootstrap override */
+
+.label-info {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper {
+    background: #A15277;
+}
+
+.sidebar-wrapper {
+    background: #A15277;
+    color: #fff;
+}
+
+.sidebar-wrapper a {
+    color: #fff;
+}
+
+.sidebar-wrapper .profile-container {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.sidebar-wrapper .tagline {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.sidebar-wrapper .container-block {
+    border-bottom: #f5f5f5;
+}
+
+.sidebar-wrapper .education-container .meta {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.sidebar-wrapper .education-container .time {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.sidebar-wrapper .language-container .lang-desc {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.main-wrapper {
+    background: #fff;
+}
+
+.main-wrapper .section-title {
+    color: #6e3852;
+}
+
+.main-wrapper .section-title .fa {
+    color: #fff;
+    background: #6e3852;
+}
+
+.main-wrapper .job-title {
+    color: #3F4650;
+}
+
+.main-wrapper .time {
+    color: #97AAC3;
+}
+
+.main-wrapper .company {
+    color: #97AAC3;
+}
+
+.skillset .level-bar {
+    background: #f5f5f5 !important;
+}
+
+.skillset .level-bar-inner {
+    background: #bf819e !important;
+}
+
+.footer .copyright {
+    color: #545E6C;
+}
+
+.footer .fa-heart {
+    color: #fb866a;
+}
+
+.btn-translate {
+    background-color: #65344b;
+    border-color: #a8577d;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+
+
+/* Small devices (tablets, 768px and up) */
+
+
+/* Medium devices (desktops, 992px and up) */
+
+
+/* Large devices (large desktops, 1200px and up) */
+
+
+/* Ex-Large devices (large desktops, 1200px and up) */
