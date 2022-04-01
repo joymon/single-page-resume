@@ -31,6 +31,13 @@ a:focus {
     text-decoration: none;
 }
 
+
+/* Bootstrap override */
+
+.label-info {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
 .wrapper {
     background: #42A8C0;
 }
