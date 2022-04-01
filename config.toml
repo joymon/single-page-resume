@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "https://joymon.github.io/single-page-resume"
 languageCode = "en-us"
 title = "Joy George Kunjikkuru"
 theme = "hugo-orbit-theme"
