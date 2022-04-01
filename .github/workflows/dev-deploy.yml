@@ -1,0 +1,36 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Deploy Dev Site
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [master]
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+        with:
+          submodules: true
+      #- name: Publish Site chabad360
+      #  uses: chabad360/hugo-gh-pages@master
+      #  with:
+      #    githubToken: ${{ secrets.GITHUB_TOKEN }}
+      #    args: --cleanDestinationDir
+      - name: Setup Hugo peaceiris
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.74.2'
+          # extended: true
+      - name: Build peaceiris
+        run: hugo --minify --environment _default
+      - name: Deploy peaceiris
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
