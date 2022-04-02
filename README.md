@@ -15,9 +15,10 @@ Below are the steps to get your single page resume.
 
 ### In free GitHub pages
 - Use the .github/workflows folder to do CI&CD
-- Change the baseurl to suit to your GitHub pages url
+- Change the baseurl in config.toml file to be same as your GitHub pages url
 
 ### Anywhere else
+- Change the baseurl in config.toml file to be same as your website url
 - Run `hugo -D` to build the site
 - It will publish the site to /public folder
 - Upload the /public folder to your hosting space
