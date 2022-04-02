@@ -26,3 +26,7 @@ Below are the steps to get your single page resume.
 # Environment
 
 - [Hugo](https://gohugo.io/getting-started/quick-start/ )
+
+# Credits
+
+- [https://github.com/aerohub/hugo-orbit-theme](https://github.com/aerohub/hugo-orbit-theme)
