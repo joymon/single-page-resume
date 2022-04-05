@@ -1,5 +1,5 @@
 # Single page resume
-My JAMstack based one page resume. A sample below.
+My JAMstack based one page resume. A sample hosted at [https://joymon.github.io/single-page-resume/](https://joymon.github.io/single-page-resume/) and it looks like below.
 
 ![sample.png](/sample.png)
 
