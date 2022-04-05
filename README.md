@@ -1,5 +1,7 @@
 # Single page resume
-My JAMstack based one page resume
+My JAMstack based one page resume. A sample below.
+
+![sample.png](/sample.png)
 
 # Getting started
 
