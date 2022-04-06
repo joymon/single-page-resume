@@ -2,7 +2,7 @@
 
 baseurl = "https://joymon.github.io/single-page-resume/"
 languageCode = "en-us"
-title = "Joy George Kunjikkuru"
+title = "Joy George Kunjikkuru - Single page resume"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
