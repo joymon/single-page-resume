@@ -61,7 +61,6 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "A software engineer willing to solve problems regardless of tools and technologies. \n\n I have **16+ years** of experience in the software engineering mainly in .Net, web and distributed cloud applications. More than a decade of experience in software architecture."
 
     # Experiences section
     [params.experiences]

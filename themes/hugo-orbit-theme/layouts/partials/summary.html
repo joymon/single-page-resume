@@ -1,7 +1,7 @@
 <section class="section summary-section">
     <!-- <h2 class="section-title"><i class="fa {{ .Site.Params.summary.icon }}"></i>{{ i18n "summary" }}</h2> -->
     <div class="summary">
-        <p>{{ with .Site.Params.summary.summary }}{{ . | markdownify }}{{ end }}</p>
+        <p>{{ with .Site.Data.resume.basics.summary }}{{ . | markdownify }}{{ end }}</p>
     </div>
     <!--//summary-->
 </section>
