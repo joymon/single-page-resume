@@ -6,7 +6,7 @@
         "email": "joymon@gmail.com",
         "phone": "661-665-6916",
         "url": "https://joymononline.in",
-        "summary": "Passionate Software engineer to solve problems regardless of tools and technologies. \n\n I have **16+ years** of experience in the software engineering mainly in .Net, web and distributed cloud applications. More than a decade of experience in software architecture.",
+        "summary": "Passionate Software engineer to solve problems regardless of tools and technologies. \n\n I have **19+ years** of experience in the software engineering mainly in .Net, web and distributed cloud applications. More than a decade of experience in software architecture.",
         "location": {
             "address": "Wayne",
             "postalCode": "NJ 07470",
@@ -158,12 +158,12 @@
         {
             "name": "Azure",
             "level": "80%",
-            "keywords": ["IaaS", "ServiceFabric", "Functions", "AKS", "ACR", "AppService", "Storage", "ServiceBus", "ADF", "ADB"]
+            "keywords": ["IaaS", "ServiceFabric", "Functions", "AKS", "AppService", "Storage", "ServiceBus", "ADF", "ADB","OpenAI Service"]
         },
         {
-            "name": ".Net",
+            "name": ".Net Technologies",
             "level": "95%",
-            "keywords": [".Net 6", "C#", "ASP.Net WebAPI", "MVC", "Linq", "WCF", "WPF"]
+            "keywords": [".Net 8", "C#", "ASP.Net WebAPI", "MVC", "Linq", "WCF", "WPF"]
         },
         {
             "name": "Web Development",
