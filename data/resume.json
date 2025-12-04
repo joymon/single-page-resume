@@ -1,18 +1,18 @@
 {
     "basics": {
         "name": "Joy George Kunjikkuru",
-        "label": "Solutions Architect",
+        "label": "Senior Architect",
         "image": "",
         "email": "joymon@gmail.com",
         "phone": "661-665-6916",
         "url": "https://joymononline.in",
         "summary": "Passionate Software engineer to solve problems regardless of tools and technologies. \n\n I have **19+ years** of experience in the software engineering mainly in .Net, web and distributed cloud applications. More than a decade of experience in software architecture.",
         "location": {
-            "address": "Wayne",
-            "postalCode": "NJ 07470",
-            "city": "Wayne",
+            "address": "City",
+            "postalCode": "ST 00000",
+            "city": "City",
             "countryCode": "US",
-            "region": "New Jersey"
+            "region": "State"
         },
         "profiles": [{
                 "network": "twitter",
@@ -70,7 +70,7 @@
     ],
     "work": [{
             "name": "Orion Business Innovations, New Jersey",
-            "position": "Solutions Architect",
+            "position": "Senior Architect",
             "url": "https://orioninc.com",
             "startDate": "2017-03-01",
             "endDate": "",
@@ -135,12 +135,12 @@
         "title": "AZ-303 - Microsoft Azure Architect Technologies",
         "date": "2014-11-01",
         "awarder": "Company",
-        "summary": "There is no spoon."
+        "summary": "Summary."
     }, {
         "title": "MCTS",
         "date": "2014-11-01",
         "awarder": "Company",
-        "summary": "There is no spoon."
+        "summary": "Summary."
     }],
     "publications": [],
     "skills": [{
