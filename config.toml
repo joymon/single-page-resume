@@ -30,7 +30,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Joy George Kunjikkuru"
-        tagline = "Solutions Architect"
+        tagline = "Senior Architect"
         avatar = "profile.png"
 
     # Contact section
