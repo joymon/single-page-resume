@@ -65,13 +65,13 @@ disable404 = true
     # Experiences section
     [params.experiences]
         enable = true
-        icon = "fa-briefcase"
+        icon = "fa-code"
         title = "Experiences"
 
     # Projects section
     [params.projects]
         enable = true
-        icon = "fa-archive"
+        icon = "fa-github"
         title = "Projects"
         intro = "Below are the open source projects I have started or contributing to."
 
