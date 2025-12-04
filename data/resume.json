@@ -6,7 +6,7 @@
         "email": "joymon@gmail.com",
         "phone": "661-665-6916",
         "url": "https://joymononline.in",
-        "summary": "Passionate Software engineer to solve problems regardless of tools and technologies. \n\n I have **19+ years** of experience in the software engineering mainly in .Net, web and distributed cloud applications. More than a decade of experience in software architecture.",
+        "summary": "Passionate Software engineer to solve problems regardless of tools and technologies. \n\n **2 decades** of experience in the software engineering mainly in .Net, web and distributed cloud applications. More than a decade of experience in software architecture.",
         "location": {
             "address": "City",
             "postalCode": "ST 00000",
@@ -14,11 +14,7 @@
             "countryCode": "US",
             "region": "State"
         },
-        "profiles": [{
-                "network": "twitter",
-                "username": "joymon",
-                "url": "https://twitter.com/joymon"
-            },
+        "profiles": [
             {
                 "network": "github",
                 "username": "joymon",
@@ -117,7 +113,7 @@
             "url": "",
             "startDate": "2005-11-01",
             "endDate": "2007-05-28",
-            "summary": "Mainly responsible for developer support of the WPF and WinForms custom controls via forums, emails, incident tracking system and phone. Also to coordinate development, developing demos, and test both manually and automated."
+            "summary": "Provided developer support for WPF/WinForms controls across forums, email, and incidents; coordinated feature work, built demos, and delivered manual/automated testing."
         }
     ],
     "volunteer": [{
