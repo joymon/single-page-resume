@@ -1,12 +1,8 @@
 <div class="contact-container container-block">
     <div class="list-unstyled contact-list">
         {{ range .Site.Data.resume.basics.profiles }}
-        <!-- <li class="{{ .class }}">
-            <i class="fa fa-{{ .network }}"></i>
-            <a href="{{ .url }}">{{ .username }}</a>
-        </li> -->
-        | <i class="fa fa-{{ .network }}"></i>
-        <a href="{{ .url }}">{{ .username }}</a> {{ end }} |
+         <i class="fa fa-{{ .network }}"></i>
+        <a href="{{ .url }}">{{ .username }}</a> |{{ end }} 
     </div>
 </div>
 <!--//contact-container-->

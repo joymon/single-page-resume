@@ -6,7 +6,7 @@
         "email": "joymon@gmail.com",
         "phone": "661-665-6916",
         "url": "https://joymononline.in",
-        "summary": "Passionate Software engineer to solve problems regardless of tools and technologies. \n\n **2 decades** of experience in the software engineering mainly in .Net, web and distributed cloud applications. More than a decade of experience in software architecture.",
+        "summary": "Passionate Software engineer to solve problems regardless of tools and technologies. \n\n Over 20 years in software engineering across .NET, web, and distributed cloud, with 10+ years leading software architecture.",
         "location": {
             "address": "City",
             "postalCode": "ST 00000",
@@ -36,19 +36,19 @@
             "endDate": "2009-01-01",
             "score": "4.0",
             "courses": [
-                "MBA in Information Systems Management"
+                "MBA - Information Systems Management"
             ]
         },
         {
             "institution": "Anna University",
             "url": "https://institution.com/",
-            "area": "Computer Scient",
+            "area": "Computer Science",
             "studyType": "Masters",
             "startDate": "2002-01-01",
             "endDate": "2005-01-01",
             "score": "4.0",
             "courses": [
-                "BE in Computer Science and Engineering"
+                "BE - CSE"
             ]
         },
         {
@@ -143,7 +143,7 @@
             "name": "Architecture",
             "level": "95%",
             "keywords": [
-                "Microservice", "Serverless", "Distributed computing", "SOA", "Messaging", "SOLID principles", "GoF patterns"
+                "Microservice", "Serverless", "Messaging","Distributed computing", "SOA",  "SOLID principles", "GoF patterns"
             ]
         },
         {
