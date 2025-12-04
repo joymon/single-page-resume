@@ -22,10 +22,10 @@ jobs:
       #  with:
       #    githubToken: ${{ secrets.GITHUB_TOKEN }}
       #    args: --cleanDestinationDir
-      - name: Setup Hugo peaceiris
+      - name: Setup Hugo (Extended v0.152.2)
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.74.2'
+          hugo-version: '0.152.2'
           extended: true
       - name: Build peaceiris
         run: hugo --minify --environment _default
