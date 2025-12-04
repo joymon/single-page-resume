@@ -1,3 +1,5 @@
-/public
+public
 *.lock
 /resources
+# Hugo build output
+public/**
